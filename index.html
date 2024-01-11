@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>waf.barracuda</title>
+  <link rel="icon" href="./favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+  
+  
+  <div class="dropdown"> <select id="languageDropdown">
+      <option value="english">English</option>
+      <option value="spanish">Spanish</option>
+      <option value="french">French</option>
+      <option value="german">German</option>
+    </select></div>
+      
+  <div class="header-image"><img  src="./header_logo.png" alt="barracuda logo"></div>
+      <div class="manage-form" id="main-content">
+       
+        <form method="post" id="loginForm">
+    <div class="login-button">
+      <div class="input-values">
+        <p>
+          Please enter your administrator login and password.</p>
+          <input type="text" value="guest"></br>
+          <input type="password" placeholder="password">
+      </div>
+      <button id="signInButton" onclick="redirect()">Sign in</button>
+      
+      <div class="spinner" id="spinner"></div>
+    </div>
+   </form></div>
+   
+ <script src="./app.js"></script> 
+</body>
+</html>
